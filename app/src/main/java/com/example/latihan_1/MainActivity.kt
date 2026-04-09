@@ -48,7 +48,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         .fillMaxSize()
         .background(
             brush = Brush.linearGradient(
-                colors = listOf(Color.Yellow, Color.Red)
+                colors = listOf(Color.Red, Color.Yellow)
             )
         ),
         contentAlignment = Alignment.Center
